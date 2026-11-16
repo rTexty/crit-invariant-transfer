@@ -1,0 +1,16 @@
+# Python environments, caches, and coverage
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local configuration and generated research output
+.env*
+.ecc/
+/artifacts/
+.DS_Store
