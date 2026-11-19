@@ -1,0 +1,26 @@
+[project]
+name = "crit-invariant-transfer"
+version = "0.1.0"
+description = "Research on cross-domain decision strategy transfer via structural and functional invariants"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "numpy==2.4.6",
+    "scipy==1.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "slow: scientific smoke benchmarks",
+    "reproduction: checks against published reference results",
+]
