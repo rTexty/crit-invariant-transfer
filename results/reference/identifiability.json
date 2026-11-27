@@ -1,0 +1,41 @@
+{
+  "all_rigid": true,
+  "left_zero_counterexample": {
+    "automorphism_count": 6,
+    "blind_regret": 0.6666666666666666,
+    "gap": 0.0,
+    "informed_regret": 0.6666666666666666,
+    "size": 3
+  },
+  "rigid_cases": [
+    {
+      "automorphism_count": 1,
+      "blind_regret": 0.5,
+      "gap": 0.5,
+      "informed_regret": 0.0,
+      "size": 2
+    },
+    {
+      "automorphism_count": 1,
+      "blind_regret": 0.6666666666666666,
+      "gap": 0.6666666666666666,
+      "informed_regret": 0.0,
+      "size": 3
+    },
+    {
+      "automorphism_count": 1,
+      "blind_regret": 0.75,
+      "gap": 0.75,
+      "informed_regret": 0.0,
+      "size": 4
+    },
+    {
+      "automorphism_count": 1,
+      "blind_regret": 0.8,
+      "gap": 0.8,
+      "informed_regret": 0.0,
+      "size": 5
+    }
+  ],
+  "seed": 20260831
+}

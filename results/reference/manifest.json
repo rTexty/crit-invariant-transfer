@@ -1,0 +1,40 @@
+{
+  "archive_snapshot": "8e354594f61200fedca1266068794919a4eb1d64",
+  "environment": {
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.4",
+    "scipy": "1.18.0"
+  },
+  "environment_role": "Public reproduction target verified on 2026-11-27; not historical queue-run metadata",
+  "references": {
+    "identifiability.json": {
+      "archive_path": ".ecc/benchmarks/crit_v04_identifiability.json",
+      "archive_sha256": "f1965d3d0c96fb065a258b9b482bc0190ccd592a57dfd5b545bdff976ab942cc",
+      "command": "uv run --locked python -m benchmarks.run_v04_identifiability --output artifacts/identifiability.json",
+      "historical_metadata": {
+        "date": "2026-08-31",
+        "environment": {
+          "machine": "arm64",
+          "numpy": "2.4.6",
+          "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+          "python": "3.14.4",
+          "scipy": "1.18.0"
+        }
+      },
+      "sha256": "cf1d1467ce6585fd61b08f8f3ea3e6be40578504ea5d95f2dc77eeb54c5fe222"
+    },
+    "queue-transfer.json": {
+      "archive_path": ".ecc/benchmarks/crit_v08_queue_transfer.json",
+      "archive_sha256": "18db4fb2d16ee4d9aa4400cc418a10062ecc0ab836d583294ab3bd6d31e6692f",
+      "command": "uv run --locked python -m benchmarks.run_v08_queue_transfer --output artifacts/queue-transfer.json",
+      "sha256": "99087201147af39e5895bef9ad3ee9a9d1521ef59abbd79b0ecb7f04760a834e"
+    }
+  },
+  "status": "Historical synthetic reference subsets; not new observations",
+  "tolerances": {
+    "atol": 1e-10,
+    "rtol": 1e-09
+  }
+}
